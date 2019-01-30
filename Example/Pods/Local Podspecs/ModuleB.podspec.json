@@ -1,0 +1,22 @@
+{
+  "name": "ModuleB",
+  "version": "0.1.0",
+  "summary": "A short description of ModuleB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NShunJian/ModuleB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NShunJian": "528392911@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/NShunJian/ModuleB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ModuleB/Classes/**/*"
+}
