@@ -7,6 +7,7 @@
 //
 
 #import "NSViewController.h"
+#import "PageBViewController.h"
 
 @interface NSViewController ()
 
@@ -14,10 +15,23 @@
 
 @implementation NSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"我是ModuleB";
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 300, 100);
+    btn.backgroundColor = [UIColor greenColor];
+    btn.center = self.view.center;
+    [btn setTitle:@"模块B业务功能组件" forState: UIControlStateNormal];
+    [btn addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)push {
+    PageBViewController *VC = [[PageBViewController alloc] init];
+    [self.navigationController pushViewController:VC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
