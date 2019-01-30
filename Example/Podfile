@@ -5,9 +5,9 @@ platform :ios, '8.0'
 target 'ModuleB_Example' do
   pod 'ModuleB', :path => '../'
 
-  target 'ModuleB_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  target 'ModuleB_Tests' do
+#    inherit! :search_paths
+#
+#    
+#  end
 end
