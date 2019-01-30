@@ -1,1 +1,1 @@
-../../../../../ModuleB/Classes/PageBViewController.h
+../../../../../ModuleB/Classes/Controller/PageBViewController.h
