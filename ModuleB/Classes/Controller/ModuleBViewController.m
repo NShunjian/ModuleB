@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"我是模块B业务组件";
+    self.title = self.params[@"param"];
     
     self.view.backgroundColor = [UIColor whiteColor];
     

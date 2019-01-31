@@ -13,6 +13,7 @@
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params {
     ModuleBViewController *VC = [[ModuleBViewController alloc] init];
+    VC.params = params;
     return VC;
 }
 
