@@ -2,12 +2,13 @@
 //  Target_ModuleB.m
 //  ModuleB-Component
 //
-//  Created by 刘光强 on 2018/9/13.
+//  Created by NShunjian on 2018/9/13.
 //  Copyright © 2018年 quangqiang. All rights reserved.
 //
 
 #import "Target_ModuleB.h"
 #import "ModuleBViewController.h"
+#import "BViewController.h"
 
 @implementation Target_ModuleB
 
@@ -17,4 +18,10 @@
     return VC;
 }
 
+- (UIViewController *)Action_contentText:(NSDictionary *)params
+{
+    NSString *contentText = params[@"contentText"];
+    BViewController *viewController = [[BViewController alloc] initWithContentText:contentText];
+    return viewController;
+}
 @end

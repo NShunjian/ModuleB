@@ -1,5 +1,5 @@
 PODS:
-  - ModuleB (0.2.0)
+  - ModuleB (0.3.2)
 
 DEPENDENCIES:
   - ModuleB (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ModuleB: f5a1847ffc7d8b8bb196b79b542ecd74fcdf9437
+  ModuleB: d2aeb05433fca5b450e16b341a69bc80c0e57816
 
 PODFILE CHECKSUM: 2df6d6c63b5357ee0aa89756dd829eef3c7f6074
 
