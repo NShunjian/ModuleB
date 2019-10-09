@@ -12,7 +12,7 @@
 @interface BViewController ()
 
 @property (nonatomic, strong) UILabel *contentLabel;
-
+@property(nonatomic, copy)NSString *csj;
 @end
 
 @implementation BViewController
